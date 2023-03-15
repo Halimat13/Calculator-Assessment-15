@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: black;
+    height: 100vh;
+}
+
+main{
+    height: 95%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: #dfc3ef;
+    margin-top: 3rem;
+}
+
+div{
+    height: 70%;
+    width: 15%;
+    background-color: #001e34;
+    margin: 10rem;
+    border-radius: 1rem;
+}
+
+div .screen{
+    height: 20%;
+    background-color: #001e34;
+}
+.screen h1{
+    color: #ffffff;
+    text-align: end;
+}
+
+
